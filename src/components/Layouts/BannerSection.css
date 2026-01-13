@@ -1,0 +1,153 @@
+.banner-section {
+  background-color: black;
+  padding: 25px 0;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.banner-container {
+  padding: 0 15px;
+}
+
+/* Banner Content */
+.banner-content {
+  padding: 30px;
+  text-align: left;
+}
+
+.banner-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.banner-description {
+  color: #8e99a2;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+/* Banner List */
+.banner-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 25px;
+  color: #497497;
+}
+
+.banner-list li {
+  font-size: 1.2rem;
+  color: #fafbfc;
+  margin-bottom: 12px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.banner-list li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #007bff;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Banner Buttons */
+.banner-buttons {
+  margin-top: 25px;
+}
+
+.btn-custom {
+  padding: 12px 30px;
+  font-weight: 600;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.2);
+}
+
+/* Banner Image */
+.banner-image-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.banner-image {
+  border-radius: 8px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.banner-image:hover {
+  transform: scale(1.02);
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .banner-title {
+    font-size: 2rem;
+  }
+
+  .banner-content {
+    padding: 20px;
+  }
+
+  .banner-section {
+    padding: 60px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-title {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .banner-description {
+    text-align: center;
+  }
+
+  .banner-list li {
+    text-align: left;
+  }
+
+  .banner-buttons {
+    text-align: center;
+  }
+
+  .banner-image-container {
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .banner-image {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 576px) {
+  .banner-section {
+    padding: 40px 0;
+  }
+
+  .banner-title {
+    font-size: 1.5rem;
+  }
+
+  .btn-custom {
+    padding: 10px 25px;
+    width: 100%;
+    max-width: 250px;
+  }
+}

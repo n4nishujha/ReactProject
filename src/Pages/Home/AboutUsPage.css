@@ -1,0 +1,62 @@
+/* AboutUsPage.css */
+.about-page {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-section2 {
+  background: #102237;
+}
+
+.hero-image-wrapper {
+  border: 50px;
+}
+
+.hero-section3 {
+  background: #e9ecef;
+}
+
+.hero-section3 .card-text {
+  color: rgb(19, 19, 19);
+  font-size: 17px;
+}
+
+.mission-section {
+  background: #102237;
+  color: #e9ecef;
+}
+
+.mission-section .card {
+  transition: transform 0.3s ease;
+}
+
+.mission-section .card:hover {
+  transform: translateY(-10px);
+}
+
+.team-section .card {
+  transition: all 0.3s ease;
+}
+
+.team-section .card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.team-section .card-img-top {
+  height: 250px;
+  object-fit: cover;
+}
+
+.icon-wrapper {
+  height: 80px;
+  width: 80px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(13, 110, 253, 0.1);
+  border-radius: 50%;
+}
+
+.cta-section {
+  background: #102237;
+}

@@ -1,0 +1,27 @@
+.why-choose-us-section {
+  padding: 20px 0;
+  background-color: rgba(26, 25, 25, 0.495);
+}
+
+.why {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.why h3 {
+  font-size: 1.7rem;
+  margin-bottom: 15px;
+  margin-top: -10px;
+}
+
+.why p {
+  color: whitesmoke;
+  line-height: 1.5;
+  font-size: 1.1rem;
+}
+
+.why:hover {
+  background-color: #0a1625;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}

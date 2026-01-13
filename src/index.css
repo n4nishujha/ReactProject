@@ -1,0 +1,32 @@
+.bg-custom-purple {
+  background-color: #2596be;
+}
+
+.dropdown-item {
+  color: black;
+  font-size: 19px;
+}
+/* Remove default body margins and set black background */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+/* Ensure all sections have no default white space */
+section {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove Bootstrap container default padding */
+.container,
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}

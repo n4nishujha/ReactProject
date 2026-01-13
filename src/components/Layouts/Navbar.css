@@ -1,0 +1,64 @@
+.navbar .nav-link {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 19px;
+  padding-bottom: 4px;
+}
+
+.navbar .dropdown-menu {
+  background-color: #090909;
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background: linear-gradient(90deg, #693bd3, #3d0ba1);
+}
+
+/* Dropdown links */
+.navbar .dropdown-menu .dropdown-item {
+  background-color: #b5e6f0;
+  color: #000;
+  padding: 12px 18px;
+  margin: 0;
+}
+
+/* Hover */
+.navbar .dropdown-menu .dropdown-item:hover {
+  background-color: #58b2d3;
+  color: #000;
+}
+
+/* Divider FIX */
+.navbar .dropdown-divider {
+  margin: 0;
+  height: 2px;
+  background-color: #000;
+}
+
+.call-btn {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  text-align: center;
+  line-height: 1.1;
+}
+
+.call-text {
+  font-size: 15px;
+}
+
+.call-number {
+  font-size: 15px;
+  font-weight: bold;
+}

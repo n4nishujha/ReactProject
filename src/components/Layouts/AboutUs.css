@@ -1,0 +1,125 @@
+.bg {
+  background-color: #210756;
+}
+
+.py-md-6 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.aboutus-text-content {
+  color: white;
+  padding-right: 30px;
+}
+
+.aboutus-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  line-height: 1.2;
+}
+
+.aboutus-text-content h5 {
+  font-size: 22px;
+  margin-bottom: 45px;
+}
+
+.aboutus-description {
+  font-size: 16px;
+  line-height: 1.7;
+  color: rgba(222, 221, 221, 0.9);
+  margin-bottom: 30px;
+}
+
+.btn-custom {
+  padding: 12px 30px;
+  font-weight: 600;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #4a9ffa;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.15);
+}
+
+.aboutus-image-container {
+  padding: 20px;
+  align-items: left;
+}
+
+.aboutus-image {
+  border-radius: 6px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.image-container:hover {
+  background-color: #2d4053;
+  transform: scale(1.1);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.aboutus-image:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .py-md-6 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .aboutus-title {
+    font-size: 1.75rem;
+  }
+
+  .aboutus-description {
+    font-size: 1rem;
+  }
+
+  .btn-custom {
+    padding: 0.65rem 1.75rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .py-md-6 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .aboutus-title {
+    font-size: 1.5rem;
+  }
+
+  .aboutus-description {
+    font-size: 0.95rem;
+  }
+
+  .video-container {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.container {
+  animation: fadeUp 0.8s ease-out;
+}
